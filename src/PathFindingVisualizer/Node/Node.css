@@ -59,22 +59,24 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-play-state: running;
-  }
-  
-  @keyframes shortestPath {
+    transform-origin: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #FF0080, #7928CA);
+}
+
+@keyframes shortestPath {
     0% {
-      transform: scale(0.6);
-      background-color: rgb(255, 254, 106);
+        transform: scale(1);
+        opacity: 1;
     }
-  
     50% {
-      transform: scale(1.2);
-      background-color: rgb(255, 254, 106);
+        transform: scale(1.2);
+        opacity: 0.8;
     }
-  
     100% {
-      transform: scale(1);
-      background-color: rgb(255, 254, 106);
+        transform: scale(1);
+        opacity: 1;
     }
-  }
+}
+
   
