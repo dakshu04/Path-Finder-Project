@@ -61,7 +61,7 @@
     animation-play-state: running;
     transform-origin: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(45deg, #FF0080, #7928CA);
+    background: linear-gradient(45deg, #ffffff, #1e00ff);
 }
 
 @keyframes shortestPath {
